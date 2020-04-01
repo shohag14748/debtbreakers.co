@@ -1,0 +1,3940 @@
+/* FONT STYLE */
+@font-face {
+  font-family: 'open_sansbold';
+  src: url('../fonts/opensans-bold-webfont.eot');
+  src: url('../fonts/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/opensans-bold-webfont.woff2') format('woff2'), url('../fonts/opensans-bold-webfont.woff') format('woff'), url('../fonts/opensans-bold-webfont.ttf') format('truetype'), url('../fonts/opensans-bold-webfont.svg#open_sansbold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'open_sansextrabold';
+  src: url('../fonts/opensans-extrabold-webfont.eot');
+  src: url('../fonts/opensans-extrabold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/opensans-extrabold-webfont.woff2') format('woff2'), url('../fonts/opensans-extrabold-webfont.woff') format('woff'), url('../fonts/opensans-extrabold-webfont.ttf') format('truetype'), url('../fonts/opensans-extrabold-webfont.svg#open_sansextrabold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'open_sanslight';
+  src: url('../fonts/opensans-light-webfont.eot');
+  src: url('../fonts/opensans-light-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/opensans-light-webfont.woff2') format('woff2'), url('../fonts/opensans-light-webfont.woff') format('woff'), url('../fonts/opensans-light-webfont.ttf') format('truetype'), url('../fonts/opensans-light-webfont.svg#open_sanslight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'open_sansregular';
+  src: url('../fonts/opensans-regular-webfont.eot');
+  src: url('../fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/opensans-regular-webfont.woff2') format('woff2'), url('../fonts/opensans-regular-webfont.woff') format('woff'), url('../fonts/opensans-regular-webfont.ttf') format('truetype'), url('../fonts/opensans-regular-webfont.svg#open_sansregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OpenSansSemibold';
+  src: url('../fonts/OpenSansSemibold.eot');
+  src: url('../fonts/OpenSansSemibold.eot') format('embedded-opentype'), url('../fonts/OpenSansSemibold.woff2') format('woff2'), url('../fonts/OpenSansSemibold.woff') format('woff'), url('../fonts/OpenSansSemibold.ttf') format('truetype'), url('../fonts/OpenSansSemibold.svg#OpenSansSemibold') format('svg');
+}
+
+@font-face {
+  font-family: 'Quicksand-Medium';
+  src: url('../Quicksand-Medium.eot') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Quicksand-Medium';
+  src: url('../fonts/Quicksand-Medium.woff') format('woff'), url('../fonts/Quicksand-Medium.ttf') format('truetype'), url('../fonts/Quicksand-Medium.svg#Quicksand-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Quicksand-Regular';
+  src: url('../fonts/Quicksand-Regular.eot') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Quicksand-Regular';
+  src: url('../fonts/Quicksand-Regular.woff') format('woff'), url('../fonts/Quicksand-Regular.ttf') format('truetype'), url('../fonts/Quicksand-Regular.svg#Quicksand-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Quicksand-Bold';
+  src: url('../fonts/') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Quicksand-Bold';
+  src: url('../fonts/Quicksand-Bold.woff') format('woff'), url('../fonts/Quicksand-Bold.ttf') format('truetype'), url('../fonts/Quicksand-Bold.svg#Quicksand-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ralewaybold';
+  src: url('../fonts/raleway-bold-webfont.eot');
+  src: url('../fonts/raleway-bold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/raleway-bold-webfont.woff2') format('woff2'), url('../fonts/raleway-bold-webfont.woff') format('woff'), url('../fonts/raleway-bold-webfont.ttf') format('truetype'), url('../fonts/raleway-bold-webfont.svg#ralewaybold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ralewaymedium';
+  src: url('../fonts/raleway-medium-webfont.eot');
+  src: url('../fonts/raleway-medium-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/raleway-medium-webfont.woff2') format('woff2'), url('../fonts/raleway-medium-webfont.woff') format('woff'), url('../fonts/raleway-medium-webfont.ttf') format('truetype'), url('../fonts/raleway-medium-webfont.svg#ralewaymedium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ralewayregular';
+  src: url('../fonts/raleway-regular-webfont.eot');
+  src: url('../fonts/raleway-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/raleway-regular-webfont.woff2') format('woff2'), url('../fonts/raleway-regular-webfont.woff') format('woff'), url('../fonts/raleway-regular-webfont.ttf') format('truetype'), url('../fonts/raleway-regular-webfont.svg#ralewayregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ralewaysemibold';
+  src: url('../fonts/raleway-semibold-webfont.eot');
+  src: url('../fonts/raleway-semibold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/raleway-semibold-webfont.woff2') format('woff2'), url('../fonts/raleway-semibold-webfont.woff') format('woff'), url('../fonts/raleway-semibold-webfont.ttf') format('truetype'), url('../fonts/raleway-semibold-webfont.svg#ralewaysemibold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'roboto_condensedbold';
+  src: url('../fonts/robotocondensed-bold-webfont.woff2') format('woff2'),
+    url('../fonts/robotocondensed-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'robotoblack';
+  src: url('../fonts/roboto-black-webfont.woff2') format('woff2'),
+    url('../fonts/roboto-black-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'robotoregular';
+  src: url('../fonts/roboto-regular-webfont.eot');
+  src: url('../fonts/roboto-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/roboto-regular-webfont.woff2') format('woff2'),
+    url('../fonts/roboto-regular-webfont.woff') format('woff'),
+    url('../fonts/roboto-regular-webfont.ttf') format('truetype'),
+    url('../fonts/roboto-regular-webfont.svg#robotoregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'robotolight';
+  src: url('../fonts/roboto-light-webfont.eot');
+  src: url('../fonts/roboto-light-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/roboto-light-webfont.woff2') format('woff2'),
+    url('../fonts/roboto-light-webfont.woff') format('woff'),
+    url('../fonts/roboto-light-webfont.ttf') format('truetype'),
+    url('../fonts/roboto-light-webfont.svg#robotolight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'robotobold';
+  src: url('../fonts/roboto-bold-webfont.eot');
+  src: url('../fonts/roboto-bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/roboto-bold-webfont.woff2') format('woff2'),
+    url('../fonts/roboto-bold-webfont.woff') format('woff'),
+    url('../fonts/roboto-bold-webfont.ttf') format('truetype'),
+    url('../fonts/roboto-bold-webfont.svg#robotobold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* ---- Generelized css rules  ---- */
+html,
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'ralewayregular';
+  font-size: 14px;
+  color: #141414;
+  line-height: 22px;
+}
+
+.text-white {
+  color: #fff !important;
+}
+
+.text-black {
+  color: #141414;
+}
+
+.text-orange {
+  color: #ff6800;
+}
+
+.close {
+  cursor: pointer;
+}
+
+.custom-navbar {
+  background-color: #ffffff;
+  color: #fff;
+  font-family: 'OpenSansSemibold';
+  font-size: 14px;
+  border-bottom: 2px solid #e5e5e5;
+}
+.navbar-brand{
+  max-width: 140px;
+  margin-right: 10px;
+}
+.custom-navbar .navbar-toggler:hover,
+.custom-navbar .navbar-toggler:focus {
+  outline: none;
+}
+.custom-navbar .navbar-expand-lg .navbar-nav .nav-link {
+  color: #000;
+  padding: 0 25px;
+  position: relative;
+}
+
+.custom-navbar .navbar-expand-lg .navbar-nav .nav-item .nav-link span {
+  position: relative;
+}
+
+.custom-navbar .navbar-expand-lg .navbar-nav .nav-item.active .nav-link span::after {
+  content: '';
+  border-bottom: 2px solid #ff6800;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 100%;
+}
+
+.home-banner-section {
+  background: url(../images/south-african-banner-img.jpg)no-repeat;
+  min-height: 610px;
+  background-position: 0px -146px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.big-text-banner {
+  position: absolute;
+  top: 300px;
+  left: 0;
+  width: 100%;
+  background-color: rgba(222, 222, 222, .8);
+  color: #ef6606;
+  padding: 10px 0;
+}
+
+.big-text-banner h2 {
+  font-family: 'open_sansbold';
+  font-size: 56px;
+  text-shadow: 1px 1px #000;
+  margin-left: 26%;
+}
+
+.big-text-banner p {
+  font-family: 'open_sanslight';
+  font-size: 48px;
+  text-shadow: 1px 1px #000;
+  margin-right: 51%;
+  line-height: 64px;
+  text-align: right;
+}
+
+.banner-try-txt {
+    font-family: 'Quicksand-Medium';
+    font-size: 27px;
+    color: #ee5923!important;   
+    padding: 10px;    
+    margin: 20px auto 8px !important;   
+    font-weight: bold;    
+    letter-spacing: 0.1rem;   
+    /*text-shadow: 0.01rem 0.01rem 0px #cebdbd, -1px -1px 0px #444, -2px -2px 0px #666, -3px -3px 4px #777;   */
+     /*text-shadow: -1px -1px 1px #666, -3px -3px 2px #999;*/
+     text-shadow: 1px 1px #f26224;
+    /*animation: blinker 2.5s ease-out infinite;    */
+}
+.banner-try-txt {
+  font-family: 'Quicksand-Medium';
+  font-size: 24px;
+}
+
+.home-banner-section .banner-calculator-wrapper {
+  float: right;
+  position: relative;
+  width: 100%;
+  margin: 0 0 50px;
+  background-image: url(../images/banner-calculator-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0 0px 15px;
+  border-radius: 16px;
+}
+
+.home-banner-section .banner-calculator-wrapper::before {
+  content: '';
+  background-image: url("../images/banner-top-right-corner.png");
+  min-height: 115px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-repeat: no-repeat;
+}
+
+.home-banner-section .calculator-title {
+  font-size: 36px;
+  color: #fff;
+  font-family: 'ralewaymedium';
+  margin: 20px 0;
+}
+
+.home-banner-section .calculator-tab-wrap {
+  width: calc(100% - 245px);
+  vertical-align: top;
+  margin-right: 15px;
+}
+
+.home-banner-section .how-it-work-wrap {
+  width: 210px;
+  vertical-align: top;
+  font-family: 'ralewaymedium';
+  color: #fff;
+  text-align: center;
+  padding-top: 30px;
+  margin-left: 15px;
+}
+
+.home-banner-section .how-it-work-wrap h4 {
+  font-size: 24px;
+  font-family: 'robotoblack';
+  padding: 0 15px;
+}
+
+.home-banner-section .how-it-work-wrap .step-block {
+  margin: 30px 0;
+}
+
+.home-banner-section .how-it-work-wrap .step-block .img-wrap {
+  max-width: 50px;
+  margin-right: 10px;
+}
+
+.home-banner-section .how-it-work-wrap .step-block .detail-wrap {
+  width: calc(100% - 65px);
+  font-size: 15px;
+  font-family: 'robotolight';
+  text-align: left;
+}
+
+.home-banner-section .how-it-work-wrap .step-block .detail-wrap h3 {
+  font-family: 'robotoblack';
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.home-banner-section .calculator-tab-wrap .nav-tabs {
+  border: none;
+  float: left;
+  position: relative;
+  width: 100%;
+}
+
+.home-banner-section .calculator-tab-wrap .nav-tabs .nav-link {
+  color: #636363;
+  width: calc(100% / 3 - 2px);
+  text-align: center;
+  background-color: transparent;
+  font-family: 'OpenSansSemibold';
+  padding: 15px 0 0 15px;
+  position: relative;
+  border: none;
+  height: 105px;
+  width: 105px;
+}
+
+.home-banner-section .calculator-tab-wrap .nav-tabs .nav-link.active {
+  background-image: url(../images/banner-nav-active.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 103px;
+  width: 103px;
+  z-index: 0;
+  background-position: -11px -11px;
+}
+
+.home-banner-section .calculator-tab-wrap .nav-tabs .nav-link.active span {
+  color: #fff;
+  background-color: transparent;
+}
+
+.home-banner-section .calculator-tab-wrap .nav-tabs .nav-link span {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 5px solid #fff;
+  padding: 8px;
+  font-family: 'robotobold';
+  font-size: 24px;
+  color: #fff;
+  background-color: #e6e6e6;
+  position: relative;
+}
+
+.home-banner-section .calculator-tab-wrap .nav-tabs .nav-link:nth-child(2) {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.home-banner-section .calculator-tab-wrap .nav-tabs .nav-link:nth-child(2).active {
+  background-position: 7px -11px;
+}
+
+.home-banner-section .calculator-tab-wrap .nav-tabs .nav-link:nth-child(3).active {
+  background-position: 27px -11px;
+}
+
+.home-banner-section .calculator-tab-wrap .nav-tabs .nav-link:nth-child(2) span {
+  margin: 0 auto;
+}
+
+.home-banner-section .calculator-tab-wrap .nav-tabs .nav-link:nth-child(3) {
+  text-align: right;
+}
+
+.home-banner-section .calculator-tab-wrap .nav-tabs .nav-link:nth-child(3) span {
+  float: right;
+  text-align: center;
+}
+
+.home-banner-section .calculator-tab-wrap .nav-tabs .nav-link:nth-child(1) span::after {
+  content: '';
+  background-image: url(../images/banner-nav-after-img.png);
+  min-width: 26px;
+  min-height: 25px;
+  right: -25px;
+  top: 5px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  z-index: 999;
+  position: absolute;
+}
+
+.home-banner-section .calculator-tab-wrap .nav-tabs .nav-link:nth-child(2) span::after {
+  content: '';
+  background-image: url(../images/banner-nav-after-img.png);
+  min-width: 26px;
+  min-height: 25px;
+  right: -25px;
+  top: 5px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  z-index: 999;
+  position: absolute;
+}
+
+.home-banner-section .calculator-tab-wrap .nav-tabs .nav-link:nth-child(2) span::before {
+  content: '';
+  background-image: url(../images/banner-nav-before-img.png);
+  min-width: 26px;
+  min-height: 25px;
+  left: -25px;
+  top: 5px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  z-index: 999;
+  position: absolute;
+}
+
+.home-banner-section .calculator-tab-wrap .nav-tabs .nav-link:nth-child(3) span::before {
+  content: '';
+  background-image: url(../images/banner-nav-before-img.png);
+  min-width: 26px;
+  min-height: 25px;
+  left: -25px;
+  top: 5px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  z-index: 999;
+  position: absolute;
+}
+
+.home-banner-section .calculator-tab-wrap .nav-tabs .nav-link:nth-child(2)::before {
+  content: '';
+  height: 7px;
+  width: 145%;
+  position: absolute;
+  background-color: #fff;
+  left: -120px;
+  top: 35px;
+}
+
+.home-banner-section .calculator-tab-wrap .nav-tabs .nav-link:nth-child(2)::after {
+  content: '';
+  height: 7px;
+  width: 150%;
+  position: absolute;
+  background-color: #fff;
+  right: -140px;
+  top: 35px;
+}
+
+.home-banner-section .calculator-tab-wrap .nav-tabs .nav-link.active {
+  position: relative;
+}
+
+.home-banner-section .calculator-tab-wrap .nav-tabs .nav-link.completed span {
+  background-color: #99DC59;
+
+}
+
+.home-banner-section .calculator-tab-wrap .nav-tabs .nav-link.completed span label.step-num,
+.home-banner-section .calculator-tab-wrap .nav-tabs .nav-link span label.tick-icon {
+  display: none;
+}
+
+.home-banner-section .calculator-tab-wrap .nav-tabs .nav-link span label.step-num,
+.home-banner-section .calculator-tab-wrap .nav-tabs .nav-link.completed span label.tick-icon {
+  display: block;
+  color: #fff;
+}
+
+
+.home-banner-section .calculator-tab-wrap .nav-tabs .nav-link p {
+  margin-bottom: 0;
+}
+
+.home-banner-section .calculator-tab-wrap .tab-title {
+  font-size: 22px;
+  color: #4d4d4d;
+  text-align: left;
+  margin-bottom: 20px;
+  font-family: 'robotobold';
+}
+
+.home-banner-section .info-title {
+  font-size: 16px;
+  color: #4d4d4d;
+  text-align: left;
+  margin-bottom: 5px;
+  font-family: 'robotobold';
+}
+
+.home-banner-section .break-debt-btn {
+  background-color: #8CC34E;
+  color: #fff;
+  border-radius: 20px;
+  font-family: 'robotobold';
+  margin: 10px 0 0;
+}
+
+.home-banner-section .calculator-tab-wrap .tab-content {
+  background-color: #fff;
+  border-radius: 16px;
+  float: left;
+  position: relative;
+  width: 100%;
+  margin: 0 15px;
+  margin-top: -15px;
+}
+
+.home-banner-section .calculator-tab-wrap .tab-top-block {
+  padding: 15px;
+  float: left;
+  position: relative;
+  width: 100%;
+}
+
+.home-banner-section .custom-from-label {
+  font-size: 16px;
+  color: #666666;
+  font-family: 'robotolight';
+  margin-bottom: 0;
+  display: block;
+}
+
+.home-banner-section .calculated-value {
+  font-family: 'robotoblack';
+  font-size: 28px;
+  color: #ff7005;
+  float: right;
+}
+
+.home-banner-section .calculated-value .r-font {
+  font-family: 'robotolight';
+}
+
+.home-banner-section .custom-from-label .r-icon {
+  background-color: #666666;
+  color: #fff;
+  border-radius: 50%;
+  padding: 2px 5px;
+  font-family: 'robotobold';
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+.home-banner-section .home-banner-form .custom-form-group {
+  margin-bottom: 35px;
+}
+
+.home-banner-section .home-banner-form .form-control {
+  padding: 3px 6px;
+  border-left: none;
+  border: 1px solid #ff6800;
+  line-height: 21px;
+  color: #ff6800;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  font-family: 'robotoblack';
+}
+
+.home-banner-section .home-banner-form .form-control::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #ff6800;
+  font-family: 'robotoblack';
+
+}
+
+.home-banner-section .home-banner-form .form-control::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #ff6800;
+  font-family: 'robotoblack';
+
+}
+
+.home-banner-section .home-banner-form .form-control:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #ff6800;
+  font-family: 'robotoblack';
+
+}
+
+.home-banner-section .home-banner-form .form-control:-moz-placeholder {
+  /* Firefox 18- */
+  color: #ff6800;
+  font-family: 'robotoblack';
+
+}
+
+.home-banner-section .custom-form-group .input-group .input-group-text {
+  background-color: #ff6800;
+  padding: 5px 6px 5px 10px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  color: #fff;
+  font-family: 'robotobold';
+}
+
+.home-banner-section .custom-form-group {
+  margin-bottom: 20px;
+}
+
+.home-banner-section .bottom-grey-block {
+  border-top: 1px solid #f2f2f2;
+  padding: 20px 0 0;
+  float: left;
+  position: relative;
+  width: 100%;
+}
+
+.home-banner-section .bottom-grey-block .div-title {
+  font-size: 18px;
+  font-family: 'robotobold';
+  color: #666666;
+  line-height: 16px;
+  margin-bottom: 12px;
+}
+
+.home-banner-section .bottom-grey-block div.d-lg-inline-block,
+.home-banner-section .bottom-grey-block div.d-inline-block {
+  width: calc(100% /3 - 5px);
+}
+
+.home-banner-section .bottom-grey-block .calculate-value {
+  font-family: 'robotoblack';
+  font-size: 30px;
+  color: #f15a25;
+}
+
+.home-banner-section .bottom-grey-block .calculate-value .r-font {
+  font-family: 'robotolight';
+}
+
+.home-banner-section .bottom-grey-block .prev-btn {
+  padding: 7px 10px;
+  vertical-align: top;
+  background-color: #e6e6e6;
+  color: #a1a1a1;
+  border-radius: 30px;
+  font-family: 'robotoblack';
+  font-size: 22px;
+  width: 90%;
+  text-transform: uppercase;
+
+}
+
+.home-banner-section .bottom-grey-block .next-btn {
+  background-color: #f67a25;
+  background-image: url(../images/banner-btn-bg.png);
+  color: #fff;
+  border-radius: 30px;
+  font-family: 'robotoblack';
+  font-size: 22px;
+  width: 100%;
+  min-width: 125px;
+  text-transform: uppercase;
+  background-size: contain;
+  margin: 18px 0 0;
+}
+
+.home-banner-section .bottom-grey-block .cal-btn {
+  background-color: #f67a25;
+  color: #fff;
+  border-radius: 30px;
+  font-family: 'robotoblack';
+  font-size: 22px;
+  width: 100%;
+  min-width: 125px;
+  background-image: url(../images/cal-btn-img.png);
+  background-size: 100%;
+  background-position: center;
+  margin: 18px 0 0;
+  text-transform: uppercase;
+
+}
+
+.calculate-step .bottom-grey-block .calculator.cal-btn {
+  max-height: 40px;
+  padding: 5px 10px;
+  display: inline-block;
+  vertical-align: top;
+  max-width: 90px;
+}
+
+
+.breaking-debt-form-wrap {
+  margin: 15px 15px 0;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.breaking-debt-form-wrap .break-debt-form {
+  padding: 15px;
+  margin-bottom: 0;
+}
+
+.breaking-debt-form-wrap .break-debt-form label {
+  margin-bottom: 5px;
+  color: #343434;
+  font-weight: 600;
+}
+
+.breaking-debt-form-wrap .break-debt-form label.error {
+  font-size: 11px;
+  color: #ff6800;
+}
+
+.breaking-debt-form-wrap .break-debt-form .submit-enquiry-btn {
+  cursor: pointer;
+  background-color: #8CC34E;
+  color: #fff;
+  border-radius: 20px;
+  padding: 6px 12px;
+  text-align: center;
+  margin: 10px auto 0;
+  display: block;
+  max-width: 165px;
+  text-transform: uppercase;
+  font-family: 'robotobold';
+}
+
+.breaking-debt-form-wrap .break-debt-form .submit-enquiry-btn:hover,
+.breaking-debt-form-wrap .break-debt-form .submit-enquiry-btn:focus {
+  outline: none;
+  text-decoration: none;
+}
+
+.breaking-debt-form-wrap .break-debt-form .custom-from-group {
+  margin-bottom: 25px;
+}
+
+.breaking-debt-form-wrap .break-debt-form .form-control,
+.breaking-debt-form-wrap .break-debt-form textarea {
+  border-radius: 0px;
+  border: 1px solid #d9d9dd;
+  border-radius: 6px;
+  resize: none;
+  color: #4d4d4d;
+  font-size: 14px;
+  background-color: #f2f2f2;
+  position: relative;
+}
+
+
+
+.home-banner-section .banner-last-steps-wrapper {
+  float: left;
+  position: relative;
+  width: 100%;
+  margin: 110px 0;
+  background-image: url(../images/banner-calculator-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 5px;
+  border-radius: 16px;
+}
+
+.home-banner-section .banner-last-steps-wrapper .calculated-info-wrapper .calculated-info-wrap {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  display: inline-block;
+  vertical-align: top;
+  width: calc(100% /2 - 5px);
+
+  position: relative;
+}
+
+
+.home-banner-section .banner-last-steps-wrapper .calculated-info-wrapper .calculated-info-wrap::after {
+  border-top: 15px solid #F88939;
+  border-right: 15px solid transparent;
+  border-bottom: 0;
+  border-left: 15px solid transparent;
+  position: absolute;
+  content: '';
+  bottom: 50%;
+  right: -8px;
+  -ms-transform: rotate(90deg);
+  /* IE 9 */
+  -webkit-transform: rotate(90deg);
+  /* Safari 3-8 */
+  transform: rotate(90deg);
+}
+
+.home-banner-section .banner-last-steps-wrapper .calculated-info-wrapper .calculated-info-wrap .slider-wrap {
+  width: calc(100% - 240px);
+  vertical-align: middle;
+  margin-top: 8px;
+}
+
+
+.home-banner-section .banner-last-steps-wrapper .calculated-info-wrapper .calculated-info-wrap .slider-wrap .slider-horizontal {
+  height: 15px !important;
+  width: 100% !important;
+}
+
+.home-banner-section .banner-last-steps-wrapper .calculated-info-wrapper .calculated-info-wrap .slider.slider-horizontal .slider-track {
+  height: 18px !important;
+}
+
+
+.home-banner-section .banner-last-steps-wrapper .calculated-info-wrapper .calculated-info-wrap .slider-horizontal .slider-handle {
+
+  height: 26px;
+  width: 26px;
+
+}
+
+.home-banner-section .banner-last-steps-wrapper .calculated-info-wrapper .calculated-info-wrap .slider-horizontal .slider-selection {
+  background-color: #8CC34E;
+}
+
+.home-banner-section .banner-last-steps-wrapper .calculated-info-wrapper .calculated-info-wrap .calculated-value {
+  font-size: 24px;
+  line-height: 35px;
+}
+
+
+
+.home-banner-section .banner-last-steps-wrapper .calculated-info-wrapper .calculated-right-info {
+  width: calc(100% /2);
+  padding-left: 50px;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  background-image: url("../images/banner-info-bg.png");
+  background-size: 100%;
+  background-position: top center;
+}
+
+
+
+.home-banner-section .banner-last-steps-wrapper .calculated-info-wrapper .calculated-right-info h4 {
+  font-family: 'robotoblack';
+  font-size: 22px;
+  line-height: 30px;
+}
+
+.home-banner-section .banner-last-steps-wrapper .calculated-info-wrapper .calculated-right-info p {
+  font-size: 16px;
+  font-family: 'robotoregular';
+  text-align: left;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+.home-banner-section .banner-last-steps-wrapper .calculated-info-wrapper .calculated-right-info .reduced-rate {
+  font-size: 54px;
+  line-height: 30px;
+  font-family: 'robotoblack';
+  margin: 20px 0;
+}
+
+.home-banner-section .banner-last-steps-wrapper .calculated-info-wrapper .calculated-right-info .price-info {
+  font-size: 20px;
+  font-family: 'robotobold';
+  line-height: 10px;
+}
+
+.home-banner-section .banner-last-steps-wrapper .calculated-info-wrapper .calculated-right-info .price-info .r-font {
+  font-family: 'robotoregular';
+
+}
+
+.home-banner-section .banner-last-steps-wrapper .calculated-info-wrapper .calculated-right-info .grey-btn {
+  padding: 5px 20px;
+  vertical-align: top;
+  background-color: #e6e6e6;
+  color: #a1a1a1;
+  border-radius: 30px;
+  font-family: 'robotoblack';
+  font-size: 16px;
+  width: auto;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.breaking-debt-form-wrap {
+  margin: 0;
+}
+
+
+
+
+/* SLIDER CSS START */
+.slider-horizontal {
+  height: 25px !important;
+  width: 100% !important;
+}
+
+.custom-form-group {
+  margin-bottom: 58px;
+}
+
+.slider-horizontal .slider-selection {
+  background-color: #99db5a;
+  background-image: none;
+  box-shadow: none;
+}
+
+.slider-horizontal .slider-handle {
+  background-color: #f1f1f1;
+  background-image: url("../images/alider-handle-img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+  height: 34px;
+  width: 34px;
+  background-size: 40%;
+}
+
+.slider.slider-horizontal .slider-track {
+  background-image: none;
+  background-color: #f1f1f1;
+  height: 25px !important;
+  border-radius: 20px;
+}
+
+.slider-selection {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.slider .tooltip-main,
+.slider .tooltip-min,
+.slider .tooltip-max {
+  display: none !important;
+}
+
+/* SLIDER CSS END */
+
+
+
+
+
+
+.no-obligation-text {
+  padding: 10px 15px;
+  text-align: center;
+  background-image: linear-gradient(to bottom, #ff6800, rgba(255, 104, 0, 0.5));
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  font-size: 22px;
+  font-family: 'open_sansregular';
+}
+
+.benefits-section {
+  background-color: #fff;
+  padding: 60px 0 30px;
+}
+
+.benefits-section .section-title {
+  font-size: 28px;
+  font-family: 'Quicksand-Medium';
+  position: relative;
+}
+
+.benefits-section .section-title::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: calc(50% - 132px);
+  background-image: url(../images/orange-line.png);
+  background-repeat: no-repeat;
+  min-width: 264px;
+  min-height: 2px;
+}
+
+.benefits-section .section-subtext {
+  font-size: 14px;
+  font-family: 'ralewayregular';
+  margin: 25px 0;
+  color: #141414;
+  float: left;
+  position: relative;
+  width: 100%;
+}
+
+.benefits-section .benefit-blockwrap {
+  background-color: #fff;
+  border: 1px solid #ef6705;
+  padding: 60px 20px 20px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 20px;
+  float: left;
+  position: relative;
+  width: 100%;
+}
+
+.benefits-section .benefit-blockwrap:hover {
+  background-color: #ff6800;
+  color: #fff;
+}
+
+.benefits-section .benefit-blockwrap .icon-wrap {
+  background-color: #f07c22;
+  border: 2px solid transparent;
+  border-radius: 50%;
+  height: 90px;
+  width: 90px;
+  position: absolute;
+  top: -45px;
+  left: calc(50% - 45px);
+  padding: 13px;
+}
+
+.benefits-section .benefit-blockwrap:hover .icon-wrap {
+  background-color: #fff;
+  border: 2px solid #141414;
+}
+
+.benefits-section .benefit-blockwrap h4 {
+  font-size: 16px;
+  font-family: 'Quicksand-Regular';
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.debt-counselling-section {
+  padding: 140px 0 100px;
+  background-image: url("../images/debt-counselling-banner.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.debt-counselling-section .section-title {
+  font-size: 28px;
+  font-family: 'Quicksand-Medium';
+  position: relative;
+  margin-bottom: 60px;
+}
+
+.debt-counselling-section .section-title::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: calc(50% - 132px);
+  background-image: url(../images/black-line.png);
+  background-repeat: no-repeat;
+  min-width: 264px;
+  min-height: 2px;
+}
+
+.debt-counselling-section .debt-counselling-content {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  position: absolute;
+  top: 0;
+  color: #fff;
+  width: 55%;
+  padding: 10px 15px;
+  left: calc(50% - 26%);
+  font-size: 16px;
+  text-align: center;
+  line-height: 26px;
+}
+
+.debt-counselling-row {
+  padding: 0 50px;
+}
+
+.debt-counselling-section .debt-counselling-blockwrap {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 16px;
+  padding: 15px;
+  text-align: center;
+  border: 2px solid transparent;
+}
+
+.debt-counselling-section .debt-counselling-blockwrap:hover {
+  color: #fff;
+  border: 2px solid #fff;
+  background-image: -moz-linear-gradient(90deg, rgb(255, 104, 0) 0%, rgb(255, 161, 97) 100%);
+  background-image: -webkit-linear-gradient(90deg, rgb(255, 104, 0) 0%, rgb(255, 161, 97) 100%);
+  background-image: -ms-linear-gradient(90deg, rgb(255, 104, 0) 0%, rgb(255, 161, 97) 100%);
+}
+
+.debt-counselling-section .debt-counselling-blockwrap h4 {
+  font-size: 24px;
+  font-family: 'Quicksand-Bold';
+  margin-bottom: 30px;
+}
+
+.debt-counselling-section .debt-counselling-blockwrap:hover h4 .text-orange {
+  color: #fff;
+}
+
+.debt-counselling-section .debt-counselling-blockwrap .icon-wrap {
+  margin: 0 0 20px;
+}
+
+.debt-counselling-work-section {
+  /* background-image: url("../images/debt-counselling-work-banner.jpg"); */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 700px;
+  padding: 60px 0;
+  color: #fff;
+}
+
+.debt-counselling-work-section .section-title {
+  font-size: 28px;
+  font-family: 'Quicksand-Medium';
+  position: relative;
+  margin-bottom: 60px;
+  color: #000!important;
+}
+
+.debt-counselling-work-section .section-title::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: calc(50% - 132px);
+  background-image: url(../images/orange-line.png);
+  background-repeat: no-repeat;
+  min-width: 264px;
+  min-height: 2px;
+}
+
+.timeline-wrap .container,
+.timeline-outer {
+  padding: 0;
+  /*margin: 0;*/
+}
+
+.timeline {
+  list-style: none;
+  padding: 20px 0 20px;
+  position: relative;
+  font-size: 14px;
+}
+
+.timeline>li {
+  margin-bottom: 55px;
+  position: relative;
+}
+
+.timeline>li:before,
+.timeline>li:after {
+  content: " ";
+  display: table;
+}
+
+.timeline>li:after {
+  clear: both;
+}
+
+.timeline>li:before {
+  top: -15px;
+  bottom: 0;
+  position: absolute;
+  content: " ";
+  width: 5px;
+  background-color: #ff6800;
+  left: 50%;
+  margin-left: -1.5px;
+  display: block;
+  height: 35px;
+}
+
+
+.timeline>li:last-child {
+  margin-bottom: 30px;
+}
+
+.timeline>li>.timeline-panel {
+  width: 50%;
+  float: left;
+  margin-top: 12px;
+  padding: 10px 25px;
+  position: relative;
+  border: 2px solid #ff6800;
+  border-radius: 15px;
+  color: #000;
+}
+
+.timeline>li.timeline-inverted+li:not(.timeline-inverted),
+.timeline>li:not(.timeline-inverted)+li.timeline-inverted {
+  margin-top: -35px;
+}
+
+.timeline>li:not(.timeline-inverted) {
+  padding-right: 55px;
+  text-align: right;
+}
+
+.timeline>li:not(.timeline-inverted) .timeline-panel {
+  margin-top: 25px;
+}
+
+.timeline>li.timeline-inverted {
+  padding-left: 30px;
+}
+
+.timeline>li>.timeline-badge {
+  background-color: #ff6800;
+  border-radius: 50%;
+  height: 65px;
+  left: 47%;
+  border: 2px solid #fff;
+  line-height: 50px;
+  margin-left: -7px;
+  position: absolute;
+  text-align: center;
+  top: 25px;
+  width: 65px;
+  z-index: 100;
+  padding: 3px;
+}
+
+.timeline>li.timeline-inverted>.timeline-panel {
+  float: right;
+}
+
+.timeline>li.timeline-inverted>.timeline-panel:before {
+  border-left-width: 0;
+  border-right-width: 15px;
+  left: -15px;
+  right: auto;
+}
+
+.timeline>li.timeline-inverted>.timeline-panel:after {
+  border-left-width: 0;
+  border-right-width: 14px;
+  left: -14px;
+  right: auto;
+}
+
+.timeline-title {
+  margin-top: 0;
+  color: inherit;
+  font-size: 22px;
+  color: #112641;
+}
+
+.timeline-body>p,
+.timeline-body>ul {
+  margin-bottom: 0;
+  font-size: 14px;
+  line-height: 16pt;
+}
+
+.timeline-body>p+p {
+  margin-top: 5px;
+  font-size: 16px;
+}
+
+.timeline>li:last-child:after {
+  top: 95px;
+  bottom: 0;
+  position: absolute;
+  content: " ";
+  width: 5px;
+  background-color: #ff6800;
+  left: 50%;
+  margin-left: -1.5px;
+  display: block;
+  height: 30px;
+}
+
+.timeline>li:nth-child(1) {
+  margin-bottom: 70px;
+}
+
+.timeline>li:nth-child(1)>.timeline-panel {
+  margin-top: 35px;
+}
+
+.timeline>li:nth-child(4)>.timeline-panel,
+.timeline>li:last-child>.timeline-panel {
+  margin-top: 23px;
+}
+
+.testimonial-section {
+  background-image: url("../images/testimonial-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+}
+
+.testimonial-section .section-title {
+  font-size: 28px;
+  font-family: 'Quicksand-Medium';
+  position: relative;
+  margin-bottom: 60px;
+}
+
+.testimonial-section .section-title::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: calc(50% - 132px);
+  background-image: url(../images/black-line.png);
+  background-repeat: no-repeat;
+  min-width: 264px;
+  min-height: 2px;
+}
+
+.testimonial-section .testimonial-slider .testimonial-content {
+  padding: 75px 100px;
+  background-color: rgba(0, 0, 0, 0.15);
+  text-align: center;
+  position: relative;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.testimonial-section .testimonial-slider .testimonial-content::before {
+  background-image: url("../images/left-bottom-corner.png");
+  content: '';
+  min-width: 250px;
+  min-height: 101px;
+  bottom: 35px;
+  left: 45px;
+  position: absolute;
+}
+
+.testimonial-section .testimonial-slider .testimonial-content::after {
+  background-image: url("../images/top-right-corner.png");
+  content: '';
+  min-width: 255px;
+  min-height: 100px;
+  top: 35px;
+  right: 45px;
+  position: absolute;
+}
+
+.testimonial-section .testimonial-slider .testimonial-content .content-wrap {
+  font-size: 16px;
+  max-width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  line-height: 30px;
+}
+
+.testimonial-section .testimonial-slider .testimonial-content .content-wrap::before {
+  background-image: url("../images/left-quote.png");
+  position: absolute;
+  top: -35px;
+  left: -70px;
+  content: '';
+  width: 61px;
+  height: 41px;
+}
+
+.testimonial-section .testimonial-slider .testimonial-content .content-wrap::after {
+  background-image: url("../images/right-quote.png");
+  position: absolute;
+  bottom: -30px;
+  right: -70px;
+  content: '';
+  width: 65px;
+  height: 45px;
+}
+
+.testimonial-section .testimonial-slider .testimonial-thumb {
+  margin: 0 auto;
+  margin-top: -40px;
+  display: block;
+  text-align: center;
+}
+
+.testimonial-section .testimonial-slider .thumb-wrap {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  border: 3px solid #8a8a8a;
+  margin: 0 auto;
+}
+
+.testimonial-section .testimonial-slider.owl-carousel .owl-dots.disabled {
+  display: block;
+}
+
+.testimonial-section .testimonial-slider.owl-carousel.owl-theme .owl-dots .owl-dot span {
+  height: 5px;
+  width: 40px;
+  border-radius: 0px;
+  background-color: #ff6800;
+}
+
+.testimonial-section .testimonial-slider.owl-carousel.owl-theme .owl-dots .owl-dot.active span {
+  background-color: #141414;
+}
+
+.faq-section {
+  padding: 70px 0 110px;
+  background-image: url("../images/faq-bg.jpg");
+  background-size: cover;
+  background-position:top left;
+  background-repeat: no-repeat;
+}
+
+.faq-section .section-title {
+  font-size: 28px;
+  font-family: 'Quicksand-Medium';
+  position: relative;
+}
+
+.faq-section .section-title .section-subtext {
+  font-size: 20px;
+  font-family: 'open_sansregular';
+  text-transform: none;
+  position: relative;
+  float: left;
+  position: relative;
+  width: 100%;
+  margin: 15px 0 45px;
+}
+
+.faq-section .section-title .section-subtext span {
+  font-family: 'OpenSansSemibold';
+}
+
+.faq-section .section-title .section-subtext::after {
+  content: '';
+  position: absolute;
+  bottom: -20px;
+  left: calc(50% - 132px);
+  background-image: url(../images/black-line.png);
+  background-repeat: no-repeat;
+  min-width: 264px;
+  min-height: 2px;
+}
+
+.faq-accordion {
+  margin-top: 35px;
+}
+
+.faq-accordion .card {
+  margin-bottom: 20px;
+  border-radius: 6px;
+  background-color: transparent;
+  border: none;
+}
+
+.faq-accordion .card .card-header {
+  background-color: #fff;
+  border: 1px solid #ff6800;
+
+  cursor: pointer;
+  padding: 0;
+  float: left;
+  position: relative;
+  width: 100%;
+  border-radius: 6px;
+}
+
+.faq-accordion .card .card-header h5 {
+  float: left;
+  position: relative;
+  width: 100%;
+}
+
+.faq-accordion .card .card-header h5 button {
+  float: left;
+  position: relative;
+  box-shadow: none;
+  width: 100%;
+  padding: 0;
+  /* background-color: #ff6800; */
+  color: #fff;
+  background: linear-gradient(to left, #F7901D 0%, #D12229 46%, #F7901D 100%);
+  font-family: 'open_sansregular';
+  /*text-transform: uppercase;*/
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+}
+
+.faq-accordion .card .card-header h5 button::after {
+  border-top: 15px solid #ff6800;
+  border-right: 15px solid transparent;
+  border-bottom: 0;
+  border-left: 15px solid transparent;
+  position: absolute;
+  content: '';
+  bottom: -16px;
+  left: calc(50% - 50px);
+}
+
+.faq-accordion .card .card-header h5 button .question {
+  padding: 15px;
+  float: left;
+  position: relative;
+  color: #fff;
+}
+
+.faq-accordion .card .card-header h5 button .q-wrap {
+  background: #fff;
+  color: #ff6800;
+  font-family: 'roboto_condensedbold';
+  font-size: 32px;
+  padding: 4px 0;
+  vertical-align: middle;
+  min-width: 50px;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 8px;
+  float: left;
+  position: relative;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+.faq-accordion .card .card-header button .img-wrap {
+  float: right;
+  vertical-align: middle;
+  position: relative;
+  padding: 15px 12px;
+}
+
+.faq-accordion .card .card-header button.collapsed {
+  color: #ff6800;
+  background: #fff;
+  box-shadow: 1.486px 1.338px 1.96px 0.04px rgba(20, 20, 20, 0.25);
+}
+
+.faq-accordion .card .card-header button.collapsed:hover {
+  text-decoration: none;
+}
+
+.faq-accordion .card .card-header button.collapsed .q-wrap {
+  background: #ff6800;
+  background: linear-gradient(to left, #F7901D 0%, #D12229 46%, #F7901D 100%);
+
+  color: #fff;
+}
+
+.faq-accordion .card .card-header h5 button.collapsed .question {
+  color: #ff6800;
+}
+
+.faq-accordion .card .card-header h5 button.collapsed::after {
+  display: none;
+}
+
+.faq-accordion .card-body {
+  border: 1px solid #ff6800;
+  border-radius: 6px;
+  background-color: #fff;
+  font-family: 'open_sansregular';
+}
+
+.contact-section {
+  background: url("../images/contact-bg.jpg");
+  min-height: 430px;
+  padding: 50px 0 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.contact-section .contact-form {
+  padding: 60px 0;
+}
+
+.contact-section .contact-form .form-group {
+  margin-bottom: 25px;
+  position: relative;
+}
+
+.contact-section .contact-form .form-control {
+  position: relative;
+  border-radius: 8px;
+  min-height: 40px;
+  color: #9e9e9e;
+  border: none;
+  padding: 5px 15px;
+  font-family: 'open_sanslight';
+  font-size: 14px;
+}
+
+.contact-section .contact-form .black-btn {
+  background-color: #141414;
+  color: #fff;
+  border-radius: 0px;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-family: 'ralewaysemibold';
+  padding: 8px 35px;
+  margin: 30px auto;
+  display: block;
+  cursor: pointer;
+}
+
+.error {
+  font-size: 12px;
+  color: #141414;
+  position: absolute;
+}
+
+.get-in-touch-wrap {
+  background-image: url("../images/get-in-touch.jpg");
+  background-size: cover;
+  background-position: top center;
+  min-height: 530px;
+  background-repeat: no-repeat;
+  padding: 200px 0;
+  margin-top: -95px;
+}
+
+.get-in-touch-wrap .block-title {
+  font-size: 48px;
+  font-family: 'OpenSansSemibold';
+  text-transform: uppercase;
+}
+
+.get-in-touch-wrap .call-info-wrap {
+  font-size: 22px;
+  background-color: rgba(255, 255, 255, .1);
+  border-radius: 20px;
+  color: #fff;
+  max-width: 40%;
+  margin: 0 auto;
+  display: block;
+  padding: 10px 5px;
+  font-family: 'Quicksand-Regular';
+  letter-spacing: -1px;
+  margin-top: 220px;
+}
+
+.get-in-touch-wrap .call-info-wrap a {
+  color: #fff;
+}
+
+.footer-links {
+  padding: 80px 0 40px;
+  margin-top: -42px;
+  background-color: #f1f1f1;
+  color: #141414;
+  font-size: 12px;
+  font-family: 'open_sansregular';
+}
+
+.footer-links .footer-title {
+  color: #141414;
+  font-family: 'Quicksand-Medium';
+  font-size: 14px;
+  margin: 15px 0;
+}
+
+.footer-links .footer-title .footer-line {
+  background-color: #ff5124;
+  width: 50px;
+  height: 2px;
+  display: block;
+  margin-top: 5px;
+}
+
+.footer-links .ncr-logo {
+  margin: 15px 0;
+}
+
+.footer-links .footer-video-block .footer-title,
+.footer-links .contact-block .footer-title {
+  margin-top: 35px;
+  margin-bottom: 20px;
+}
+
+.footer-links .contact-block a {
+  font-size: 12px;
+  color: #141414;
+  margin-bottom: 20px;
+}
+
+.footer-links .contact-block span i,
+.footer-links .contact-block span img {
+  color: #ff6800;
+  font-size: 24px;
+  vertical-align: top;
+  margin-right: 10px;
+}
+
+.footer-links .contact-block p {
+  width: calc(100% - 40px);
+  vertical-align: top;
+}
+
+.footer-links .video-wrap {
+  max-height: 150px;
+  position: relative;
+}
+
+.footer-links .play-btn {
+  position: absolute;
+  top: calc(50% - 31px);
+  left: calc(50% - 31px);
+}
+
+.footer-links .col-md-4 {
+  position: relative;
+}
+
+.footer-links .col-md-4::after {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-image: url("../images/footer-seprator.png");
+  min-height: 237px;
+  content: '';
+  width: 2px;
+}
+
+.footer-links .col-md-4:last-child::after {
+  display: none;
+}
+
+.footer-links-section {
+  background-color: #141414;
+  color: #fff;
+}
+
+.footer-links-section .footer-pagelinks ul {
+  margin: 10px 0;
+}
+
+.footer-links-section .footer-pagelinks li {
+  position: relative;
+  padding: 0 5px;
+  line-height: 14px;
+}
+
+.footer-links-section .footer-pagelinks li::after {
+  border-right: 1px solid #fff;
+  position: absolute;
+  content: '';
+  top: 0;
+  right: -5px;
+  height: 100%;
+}
+
+.footer-links-section .footer-pagelinks li:last-child::after {
+  display: none;
+}
+
+.footer-links-section .footer-pagelinks li a {
+  color: #fff;
+}
+
+.innerpage-banner-section {
+  background-image: url("../images/banner-img.jpg");
+  min-height: 320px;
+  background-position: center;
+  background-size: cover;
+}
+
+.innerpage-banner-section .banner-title {
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-family: 'Quicksand-Medium';
+  margin: 110px 0;
+  padding: 10px;
+  width: auto;
+  position: relative;
+}
+
+.innerpage-banner-section .banner-title::after {
+  background-color: #ff6800;
+  width: 10%;
+  height: 2px;
+  position: absolute;
+  bottom: 5px;
+  left: 15px;
+  content: '';
+}
+
+.privacy-policy-section {
+  padding: 50px 0 80px;
+  color: #141414;
+}
+
+.privacy-policy-section h1 {
+  margin-bottom: 30px;
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 28px;
+  font-family: 'Quicksand-Medium';
+}
+
+.privacy-policy-section .newLetterHeader {
+  color: #ff6800;
+  font-family: 'Quicksand-Medium';
+  font-size: 24px;
+}
+
+.privacy-policy-section ul {
+  list-style: none;
+  padding-left: 20px;
+}
+
+.privacy-policy-section ul li {
+  position: relative;
+
+}
+
+.privacy-policy-section ul li::before {
+  height: 6px;
+  width: 6px;
+  border: 2px solid #ff6800;
+  background-color: transparent;
+  content: '';
+  border-radius: 50%;
+  padding: 2px;
+  position: absolute;
+  left: -20px;
+  top: 8px;
+}
+#termsCondition-error.error{
+  margin-top:20px;
+}
+
+@media screen and (max-width: 1600px) {
+  .big-text-banner h2 {
+    font-size: 50px;
+    margin-left: 24%;
+  }
+
+  .big-text-banner p {
+    font-size: 44px;
+    line-height: 56px;
+  }
+
+  .home-banner-section .bottom-grey-block .div-title {
+    font-size: 16px;
+  }
+
+  .home-banner-section .bottom-grey-block .prev-btn {
+    padding: 3px 10px;
+  }
+
+  .home-banner-section .bottom-grey-block .next-btn {
+    font-size: 18px;
+    min-width: 100%;
+    margin: 25px 0 0;
+
+  }
+
+  .home-banner-section .bottom-grey-block .cal-btn {
+    font-size: 18px;
+    margin: 25px 0 0;
+  }
+
+  .home-banner-section .calculator-tab-wrap .nav-tabs .nav-link:nth-child(2) {
+    margin: 0 auto;
+    text-align: center;
+    width: calc(100% - 220px);
+  }
+
+  .home-banner-section .calculator-tab-wrap .nav-tabs .nav-link:nth-child(2)::before {
+    width: 50%;
+    left: -28px;
+    top: 35px;
+  }
+
+  .home-banner-section .calculator-tab-wrap .nav-tabs .nav-link:nth-child(2)::after {
+    width: 50%;
+    right: -45px;
+    top: 35px;
+  }
+
+  .home-banner-section .calculator-tab-wrap .nav-tabs .nav-link:nth-child(2).active {
+    background-position: 34px -11px;
+  }
+
+  .home-banner-section .bottom-grey-block .div-title {
+    font-size: 16px;
+  }
+
+  .home-banner-section .how-it-work-wrap .step-block .detail-wrap h3 {
+    font-size: 18px;
+  }
+
+  .home-banner-section .how-it-work-wrap .step-block .detail-wrap {
+    font-size: 16px;
+  }
+
+  .home-banner-section .calculator-tab-wrap {
+    width: calc(100% - 230px);
+  }
+
+  .home-banner-section .how-it-work-wrap {
+    width: 200px;
+    margin-left: 10px;
+  }
+
+  .home-banner-section .calculated-value {
+    font-size: 24px;
+  }
+
+  .home-banner-section .bottom-grey-block .calculate-value {
+    font-size: 28px;
+  }
+
+  .home-banner-section .calculate-right-info .reduced-rate {
+    margin: 15px 0;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .big-text-banner h2 {
+    font-size: 46px;
+  }
+
+  .big-text-banner p {
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  .home-banner-section .calculator-tab-wrap .nav-tabs .nav-link span {
+    height: 40px;
+    width: 40px;
+    border: 4px solid #fff;
+    padding: 4px;
+    font-size: 20px;
+  }
+
+  .home-banner-section .calculator-tab-wrap .nav-tabs .nav-link {
+    height: 90px;
+    width: 90px;
+  }
+
+  .home-banner-section .calculator-tab-wrap .nav-tabs .nav-link:nth-child(2) {
+    width: calc(100% - 180px);
+  }
+
+  .home-banner-section .calculator-tab-wrap .nav-tabs .nav-link:nth-child(2)::before {
+    top: 32px;
+  }
+
+  .home-banner-section .calculator-tab-wrap .nav-tabs .nav-link:nth-child(2)::after {
+    top: 32px;
+  }
+
+  .home-banner-section .calculator-tab-wrap .nav-tabs .nav-link:nth-child(1) span::after {
+    top: 3px;
+  }
+
+  .home-banner-section .calculator-tab-wrap .nav-tabs .nav-link:nth-child(2) span::before,
+  .home-banner-section .calculator-tab-wrap .nav-tabs .nav-link:nth-child(2) span::after {
+    top: 3px;
+  }
+
+  .home-banner-section .calculator-tab-wrap .nav-tabs .nav-link:nth-child(3) span::before {
+    top: 3px;
+  }
+
+  .home-banner-section .calculator-tab-wrap .nav-tabs .nav-link:nth-child(2).active {
+    background-position: 40px -11px;
+  }
+
+  .home-banner-section .how-it-work-wrap h4 {
+    font-size: 22px;
+  }
+
+  .home-banner-section .how-it-work-wrap .step-block .img-wrap {
+    max-width: 30px;
+  }
+
+  .home-banner-section .how-it-work-wrap .step-block .detail-wrap {
+    font-size: 13px;
+  }
+
+  .home-banner-section .how-it-work-wrap .step-block .detail-wrap h3 {
+    font-size: 16px;
+  }
+
+  .home-banner-section .calculator-tab-wrap .nav-tabs .nav-link.active {
+    height: 90px;
+    width: 90px;
+  }
+
+  .home-banner-section .calculator-tab-wrap .nav-tabs .nav-link:nth-child(2).active {
+    width: calc(100% - 180px);
+  }
+
+  .home-banner-section .calculator-tab-wrap .tab-title {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  .home-banner-section .bottom-grey-block .calculate-value {
+    font-size: 22px;
+  }
+
+  .home-banner-section .bottom-grey-block .prev-btn {
+    font-size: 16px;
+    padding: 7px 10px;
+  }
+
+  .home-banner-section .bottom-grey-block .prev-btn img {
+    max-width: 13px;
+    margin: 0 auto;
+  }
+
+  .home-banner-section .bottom-grey-block .next-btn {
+    font-size: 16px;
+    margin: 16px 0 0;
+  }
+
+
+  .home-banner-section .bottom-grey-block .div-title {
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+
+  .home-banner-section .bottom-grey-block .cal-btn {
+    font-size: 12px;
+    padding: 10px;
+    min-width: 100%;
+    margin: 16px 0 0;
+
+  }
+
+  .home-banner-section .how-it-work-wrap {
+    width: 180px;
+    padding-top: 15px;
+  }
+
+  .home-banner-section .calculator-tab-wrap {
+    width: calc(100% - 210px);
+  }
+
+  .home-banner-section .how-it-work-wrap .step-block {
+    margin: 25px 0;
+  }
+
+  .home-banner-section .calculate-right-info p {
+    font-size: 13px;
+  }
+
+  .home-banner-section .calculate-right-info h4 {
+    font-size: 16px;
+  }
+
+  .home-banner-section .calculate-right-info .reduced-rate {
+    font-size: 38px;
+    margin: 10px 0;
+  }
+
+  .home-banner-section .break-debt-btn {
+    font-size: 15px;
+  }
+
+  .breaking-debt-form-wrap .break-debt-form .form-control {
+    font-size: 13px;
+    padding: 6px;
+    line-height: 16px;
+  }
+
+  .breaking-debt-form-wrap .break-debt-form small {
+    line-height: 14px;
+  }
+
+  .home-banner-section .calculate-right-info .price-info {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  .big-text-banner h2 {
+    font-size: 42px;
+    margin-left: 25%;
+  }
+
+  .big-text-banner p {
+    font-size: 36px;
+    line-height: 42px;
+  }
+
+  .no-obligation-text {
+    font-size: 20px;
+  }
+
+  .get-in-touch-wrap {
+    padding: 125px 0;
+  }
+
+  .get-in-touch-wrap .call-info-wrap {
+    margin-top: 150px;
+  }
+
+  .contact-section .contact-form {
+    padding: 30px 0;
+  }
+
+  .banner-try-txt {
+    font-size: 24px;
+  }
+
+  .home-banner-section .custom-from-label {
+    font-size: 14px;
+  }
+
+  .home-banner-section .how-it-work-wrap .step-block {
+    margin: 20px 0;
+  }
+
+  .home-banner-section .calculator-tab-wrap .nav-tabs .nav-link:nth-child(2).active {
+    background-position: 80px -11px;
+  }
+
+  .home-banner-section .calculator-tab-wrap .nav-tabs .nav-link:nth-child(3).active {
+    background-position: 25px -11px;
+  }
+
+  .home-banner-section .calculator-tab-wrap .tab-top-block {
+    padding: 10px;
+  }
+
+  .home-banner-section .home-banner-form .custom-form-group .form-group {
+    max-width: 150px;
+  }
+
+  .home-banner-section .banner-last-steps-wrapper .calculated-info-wrapper .calculated-info-wrap .slider-wrap {
+    width: calc(100% - 175px);
+  }
+
+  .home-banner-section .calculator-tab-wrap {
+    width: calc(100% - 190px);
+  }
+
+  .home-banner-section .how-it-work-wrap {
+    width: 170px;
+    padding-top: 15px;
+    margin-left: 0;
+  }
+
+  .home-banner-section .how-it-work-wrap .step-block .detail-wrap {
+    width: calc(100% - 55px);
+  }
+
+  .home-banner-section .banner-last-steps-wrapper .calculated-info-wrapper .calculated-right-info .reduced-rate {
+    margin: 28px 0;
+  }
+
+  .footer-links .contact-block span i,
+  .footer-links .contact-block span img {
+    font-size: 18px;
+  }
+
+}
+
+@media screen and (max-width: 1280px) {
+  .home-banner-section {
+    min-height: 590px;
+  }
+
+  .home-banner-section .calculator-tab-wrap {
+    width: calc(100% - 180px);
+  }
+
+  .home-banner-section .how-it-work-wrap {
+    width: 150px;
+  }
+
+  .home-banner-section .how-it-work-wrap .step-block {
+    margin: 20px 0;
+  }
+
+  .home-banner-section .how-it-work-wrap h4 {
+    font-size: 22px;
+    padding: 0;
+  }
+
+  .home-banner-section .how-it-work-wrap .step-block .img-wrap {
+    max-width: 30px;
+  }
+
+
+  .big-text-banner h2 {
+    font-size: 38px;
+  }
+
+  .home-banner-section .calculator-tab-wrap .nav-tabs .nav-link {
+    height: 80px;
+    width: 80px;
+  }
+
+  .home-banner-section .bottom-grey-block .next-btn {
+    font-size: 14px;
+    margin: 16px 0 0;
+    padding: 8px 10px;
+  }
+
+  .home-banner-section .bottom-grey-block .cal-btn {
+    margin: 16px 0 0;
+    padding: 10px 4px;
+    font-size: 11px
+  }
+
+  .home-banner-section .bottom-grey-block .div-title {
+    font-size: 11px;
+    margin-bottom: 5px;
+  }
+
+  .home-banner-section .bottom-grey-block .calculate-value {
+    font-size: 18px;
+  }
+
+  .home-banner-section .calculated-value {
+    font-size: 20px;
+  }
+
+
+  .home-banner-section .how-it-work-wrap h4 {
+    font-size: 22px;
+    padding: 0;
+  }
+
+  .home-banner-section .calculate-right-info .price-info {
+    font-size: 16px;
+  }
+
+  .home-banner-section .calculate-right-info p {
+    font-size: 12px;
+    margin-bottom: 0;
+  }
+
+  .breaking-debt-form-wrap .break-debt-form label {
+    margin-bottom: 0px;
+    font-size: 12px;
+  }
+
+  .home-banner-section .calculate-right-info .reduced-rate {
+    font-size: 30px;
+    margin: 5px 0;
+  }
+
+  .home-banner-section .home-banner-form .custom-form-group {
+    margin-bottom: 28px;
+  }
+
+  .home-banner-section .how-it-work-wrap .step-block .detail-wrap {
+    font-size: 13px;
+    line-height: 18px;
+  }
+
+  .home-banner-section .banner-last-steps-wrapper .calculated-info-wrapper .calculated-right-info .reduced-rate {
+    font-size: 46px;
+    line-height: 22px;
+
+  }
+
+  .home-banner-section .banner-last-steps-wrapper .calculated-info-wrapper .calculated-right-info .price-info {
+    font-size: 18px;
+  }
+
+  .home-banner-section .bottom-grey-block .cal-btn {
+    margin: 16px 0 0;
+    padding: 8px 4px;
+    font-size: 14px;
+  }
+
+  .slider.slider-horizontal .slider-track {
+    height: 15px !important;
+  }
+
+  .slider-horizontal .slider-handle {
+    height: 25px;
+    width: 25px;
+  }
+
+  .no-obligation-text {
+    font-size: 18px;
+  }
+
+  .big-text-banner h2 {
+    font-size: 36px;
+    margin-left: 17%;
+  }
+
+  .big-text-banner p {
+    font-size: 32px;
+    line-height: 38px;
+    margin-right: 59%;
+  }
+
+  .home-banner-section .calculator-tab-wrap .nav-tabs .nav-link:nth-child(2) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .home-banner-section .calculator-tab-wrap .nav-tabs .nav-link:nth-child(2).active {
+    background-position: center -10px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .home-banner-section .calculator-tab-wrap .nav-tabs .nav-link:nth-child(2) {
+    width: calc(100% - 180px);
+  }
+
+  .home-banner-section .calculator-tab-wrap .nav-tabs .nav-link:nth-child(2)::before {
+    top: 32px;
+  }
+
+  .home-banner-section .calculator-tab-wrap .nav-tabs .nav-link:nth-child(2)::after {
+    right: -40px;
+    top: 32px;
+  }
+
+  .home-banner-section .banner-last-steps-wrapper .calculated-info-wrapper .calculated-right-info h4 {
+    font-family: 'robotoblack';
+    font-size: 22px;
+    line-height: 26px;
+  }
+
+  .home-banner-section .banner-last-steps-wrapper .calculated-info-wrapper .calculated-right-info .price-info {
+    font-size: 18px;
+  }
+
+  .home-banner-section .banner-last-steps-wrapper .calculated-info-wrapper .calculated-right-info p {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+
+  .home-banner-section .banner-last-steps-wrapper .calculated-info-wrapper .calculated-right-info .price-info {
+    font-size: 16px;
+  }
+
+  .home-banner-section .banner-last-steps-wrapper .calculated-info-wrapper .calculated-info-wrap::after {
+    border-top: 12px solid #F88939;
+    border-right: 12px solid transparent;
+    border-left: 12px solid transparent;
+  }
+
+  .home-banner-section .bottom-grey-block .div-title {
+    font-size: 13px;
+  }
+
+  .home-banner-section .banner-last-steps-wrapper .calculated-info-wrapper .calculated-right-info .price-info {
+    font-size: 18px;
+  }
+
+  .home-banner-section .banner-last-steps-wrapper .calculated-info-wrapper .calculated-right-info {
+    padding-left: 20px;
+  }
+
+  .benefits-section {
+    padding: 50px 0 15px;
+  }
+
+  .benefits-section .section-subtext {
+    margin: 15px 0 30px;
+  }
+
+  .debt-counselling-section {
+    padding: 140px 0 60px;
+  }
+
+  .debt-counselling-section .debt-counselling-content {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .debt-counselling-section .debt-counselling-blockwrap h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+
+  .testimonial-section {
+    padding: 60px 0;
+  }
+
+  .testimonial-section .testimonial-slider .testimonial-content .content-wrap {
+    font-size: 14px;
+    max-width: 70%;
+  }
+
+  .timeline>li:last-child>.timeline-panel {
+    margin-top: 15px;
+  }
+
+  .faq-section {
+    padding: 60px 0 90px;
+    background-size: cover;
+  }
+
+  .get-in-touch-wrap {
+    padding: 70px 0;
+  }
+
+  .get-in-touch-wrap {
+    background-size: cover;
+    min-height: 465px;
+  }
+
+  .get-in-touch-wrap .call-info-wrap {
+    margin-top: 180px;
+    max-width: 45%;
+  }
+
+  .contact-section .contact-form {
+    padding: 0 0;
+  }
+}
+
+@media screen and (max-width: 1112px) {
+  .home-banner-section .calculator-tab-wrap .nav-tabs .nav-link:nth-child(2)::before {
+    top: 32px;
+  }
+
+  .home-banner-section .banner-last-steps-wrapper .calculated-info-wrapper .calculated-right-info {
+    width: calc(100% /2 - 0px);
+    padding-left: 20px;
+  }
+  .custom-navbar .navbar-expand-lg .navbar-nav .nav-link {
+    padding: 0 10px;
+  }
+  .home-banner-section .banner-last-steps-wrapper .calculated-info-wrapper .calculated-right-info h4 {
+
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .timeline-body>p,
+  .timeline-body>ul {
+    font-size: 13px;
+  }
+
+  .get-in-touch-wrap .block-title {
+    font-size: 40px
+  }
+
+  .get-in-touch-wrap .call-info-wrap {
+    margin-top: 175px;
+    max-width: 50%;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .banner-try-txt {   
+    font-size: 22px;    
+  }
+  .big-text-banner h2 {
+    font-size: 30px;
+    margin-left: 18%;
+  }
+
+  .big-text-banner p {
+    font-size: 26px;
+    line-height: 32px;
+    margin-right: 59%;
+  }
+
+  .home-banner-section {
+    min-height: 490px;
+  }
+
+  .home-banner-section .calculator-tab-wrap .nav-tabs .nav-link {
+    height: 65px;
+    width: 65px;
+    padding: 6px 0 0 7px;
+  }
+
+  .home-banner-section .calculator-tab-wrap .nav-tabs .nav-link.active {
+    height: 65px;
+    width: 65px;
+  }
+
+  .home-banner-section .calculator-tab-wrap .nav-tabs .nav-link span {
+    height: 30px;
+    width: 30px;
+    border: 2px solid #fff;
+    padding: 2px;
+    font-size: 16px;
+  }
+
+  .home-banner-section .calculator-tab-wrap .nav-tabs .nav-link:nth-child(1) span::after {
+    min-width: 16px;
+    min-height: 17px;
+    right: -15px;
+    top: 5px;
+  }
+
+  .home-banner-section .calculator-tab-wrap .nav-tabs .nav-link:nth-child(2) {
+    width: calc(100% - 130px);
+  }
+
+  .home-banner-section .calculator-tab-wrap .nav-tabs .nav-link:nth-child(2)::before {
+    left: -24px;
+    top: 19px;
+    height: 4px;
+  }
+
+  .home-banner-section .calculator-tab-wrap .nav-tabs .nav-link:nth-child(2)::after {
+    right: -29px;
+    top: 19px;
+    height: 4px;
+  }
+
+  .home-banner-section .calculator-tab-wrap .nav-tabs .nav-link:nth-child(2) span::before {
+    min-width: 18px;
+    min-height: 19px;
+    left: -17px;
+    top: 4px;
+  }
+
+  .home-banner-section .calculator-tab-wrap .nav-tabs .nav-link:nth-child(2) span::after {
+    top: 4px;
+    min-width: 18px;
+    min-height: 20px;
+    right: -17px;
+  }
+
+  .home-banner-section .calculator-tab-wrap .nav-tabs .nav-link:nth-child(3) span::before {
+    min-width: 18px;
+    min-height: 19px;
+    left: -17px;
+    top: 4px;
+  }
+
+  .home-banner-section .how-it-work-wrap {
+    width: 140px;
+    padding-top: 10px;
+    margin-left: 5px;
+  }
+
+  .home-banner-section .how-it-work-wrap h4 {
+    font-size: 20px;
+    padding: 0;
+  }
+
+  .home-banner-section .calculator-tab-wrap {
+    width: calc(100% - 170px);
+  }
+
+  .home-banner-section .how-it-work-wrap h4 {
+    font-size: 20px;
+    padding: 0;
+    margin-bottom: 0;
+  }
+
+  .home-banner-section .how-it-work-wrap .step-block {
+    margin: 15px 0;
+  }
+
+
+  .home-banner-section .how-it-work-wrap .step-block .img-wrap {
+    max-width: 25px;
+  }
+
+  .home-banner-section .how-it-work-wrap .step-block .detail-wrap {
+    width: calc(100% - 40px);
+    font-size: 13px;
+    line-height: 16px;
+  }
+
+  .home-banner-section .calculator-tab-wrap .tab-top-block {
+    padding: 10px;
+  }
+
+  .home-banner-section .bottom-grey-block {
+    padding: 10px 0 0;
+  }
+
+  .home-banner-section .home-banner-form .custom-form-group {
+    margin-bottom: 30px;
+  }
+
+  .home-banner-section .calculator-tab-wrap .nav-tabs .nav-link:nth-child(2).active {
+    width: calc(100% - 145px);
+    background-position: center -11px;
+  }
+
+  .home-banner-section .calculator-tab-wrap .nav-tabs .nav-link:nth-child(3).active {
+    background-position: 16px -11px;
+  }
+
+  .home-banner-section .how-it-work-wrap h4 {
+    font-size: 20px;
+  }
+
+  .home-banner-section .calculate-right-info .reduced-rate {
+    line-height: 24px;
+  }
+
+  .home-banner-section .calculate-right-info p {
+    font-size: 11px;
+    margin-bottom: 0;
+    line-height: 14px;
+  }
+
+
+  .faq-accordion .card .card-header h5 button .question {
+    padding: 5px 6px;
+    font-size: 13px;
+    max-width: max-content;
+    width: calc(100% - 70px);
+    word-wrap: break-word;
+    white-space: initial;
+    position: relative;
+    display: inline-block;
+    text-align: left;
+  }
+
+  .benefits-section .section-title,
+  .debt-counselling-section .section-title,
+  .debt-counselling-work-section .section-title,
+  .faq-section .section-title {
+    font-size: 26px;
+  }
+
+  .benefits-section .benefit-blockwrap .icon-wrap {
+    height: 75px;
+    width: 75px;
+    top: -35px;
+    left: calc(50% - 35px);
+  }
+
+  .benefits-section .benefit-blockwrap {
+    padding: 50px 15px 15px;
+  }
+
+  .debt-counselling-work-section {
+    padding: 40px 0;
+  }
+
+  .debt-counselling-section {
+    padding: 140px 0 50px;
+  }
+
+  .debt-counselling-section .debt-counselling-blockwrap h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .debt-counselling-section .debt-counselling-blockwrap {
+    padding: 10px;
+  }
+
+  .debt-counselling-section .section-title {
+    margin-bottom: 45px;
+  }
+
+  .debt-counselling-work-section .section-title {
+    margin-bottom: 35px;
+  }
+
+  .testimonial-section {
+    padding: 40px 0;
+  }
+
+  .testimonial-section .section-title {
+    font-size: 26px;
+    margin-bottom: 50px;
+  }
+
+  .testimonial-section .testimonial-slider .thumb-wrap {
+    height: 60px;
+    width: 60px;
+  }
+
+  .testimonial-section .testimonial-slider .testimonial-thumb {
+    margin-top: -30px;
+  }
+
+  .testimonial-section .testimonial-slider .testimonial-thumb h3 {
+    font-size: 20px;
+    margin-bottom: 0px;
+  }
+
+  .testimonial-section .testimonial-slider .testimonial-content {
+    padding: 55px 75px;
+  }
+
+  .faq-section {
+    padding: 35px 0 50px;
+  }
+
+  .faq-accordion {
+    margin-top: 15px;
+  }
+
+  .faq-section .section-title .section-subtext {
+    font-size: 18px;
+    margin: 10px 0 40px;
+  }
+
+  .faq-accordion .card .card-header button .img-wrap {
+    padding: 10px 12px;
+  }
+
+  .faq-accordion .card .card-header h5 button .question {
+    padding: 10px 15px;
+  }
+
+  .faq-accordion .card .card-header h5 button .q-wrap {
+    font-size: 26px;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  .faq-accordion .card-body {
+    padding: 15px;
+  }
+
+  .get-in-touch-wrap .block-title {
+    font-size: 36px;
+  }
+
+  .contact-section {
+    padding: 45px 0 0;
+    min-height: 400px;
+  }
+
+  .get-in-touch-wrap {
+    background-size: cover;
+    min-height: 405px;
+    padding: 65px 0;
+    margin-top: -70px;
+  }
+
+  .get-in-touch-wrap .call-info-wrap {
+    margin-top: 150px;
+  }
+
+  .get-in-touch-wrap .block-title {
+    font-size: 36px;
+  }
+
+  .contact-section .contact-form .black-btn {
+    margin: 10px auto;
+  }
+
+  .debt-counselling-section .debt-counselling-blockwrap .icon-wrap {
+    margin: 0 auto 20px;
+    max-width: 60px;
+    vertical-align: middle;
+  }
+}
+
+@media screen and (max-width: 991px) {
+
+  .benefits-section .section-title,
+  .debt-counselling-section .section-title,
+  .debt-counselling-work-section .section-title,
+  .faq-section .section-title {
+    font-size: 24px;
+  }
+
+
+.custom-navbar .navbar {
+padding: 5px 0;
+}
+
+.custom-navbar .navbar-toggler {border-color: #565555;color: #000;font-size: 14px;margin: 15px 0;}
+
+
+.custom-navbar .navbar-brand {
+margin: 5px 0;
+display: block;
+}
+  
+  .custom-navbar .header-social-links {
+    float: right;
+    width: 50%;
+    text-align: right;
+    font-size: 20px;
+    margin: 5px 0;
+  }
+
+  .custom-navbar .navbar-expand-lg .navbar-nav .nav-item.active .nav-link span::after {
+    bottom: -5px;
+  }
+
+  .custom-navbar .navbar-expand-lg .navbar-nav .nav-link {
+    padding: 5px 0px;
+  }
+
+  .no-obligation-text {
+    font-size: 16px;
+    padding: 5px 15px;
+  }
+
+  .big-text-banner {
+    padding: 30px 0;
+  }
+
+  .big-text-banner h2 {
+    font-size: 24px;
+    margin-left: 18%;
+  }
+
+  .big-text-banner p {
+    font-size: 22px;
+    line-height: 28px;
+    margin-right: 58%;
+  }
+
+  .home-banner-section {
+    min-height: 460px;
+  }
+
+  .benefits-section .benefit-blockwrap {
+    padding: 45px 10px 10px;
+  }
+
+  .debt-counselling-section .debt-counselling-content {
+    width: 80%;
+    left: calc(50% - 40%);
+  }
+
+  .debt-counselling-section {
+    padding: 100px 0 50px;
+  }
+
+  .home-banner-section .banner-calculator-wrapper {
+    margin: 125px 0 50px;
+  }
+
+  .home-banner-section .banner-last-steps-wrapper {
+    margin: 20px 0;
+  }
+
+  .home-banner-section .calculator-tab-wrap .nav-tabs .nav-link:nth-child(2)::before {
+    width: 50%;
+    left: -25px;
+    top: 19px;
+    height: 4px;
+    z-index: 0;
+  }
+
+  .home-banner-section .calculator-tab-wrap .nav-tabs .nav-link:nth-child(2)::after {
+    width: 50%;
+    right: -28px;
+    top: 19px;
+    height: 4px;
+  }
+
+  .home-banner-section .calculator-tab-wrap .nav-tabs .nav-link:nth-child(2) {
+    margin: 0 auto;
+    text-align: center;
+    width: calc(100% - 140px);
+  }
+
+  .home-banner-section .bottom-grey-block .div-title {
+    font-size: 12px;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+
+  .home-banner-section .bottom-grey-block .calculate-value {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .home-banner-section .bottom-grey-block div.d-inline-block {
+    width: calc(100% /2 - 5px);
+  }
+
+  .home-banner-section .bottom-grey-block .next-btn,
+  .home-banner-section .bottom-grey-block .cal-btn {
+    margin: 0;
+  }
+
+  .home-banner-section .calculate-value-wrap {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .home-banner-section .calculator-tab-wrap .nav-tabs .nav-link:nth-child(2).active {
+    width: calc(100% - 145px);
+  }
+
+  .home-banner-section .calculator-tab-wrap .nav-tabs .nav-link:nth-child(2).active {
+    background-position: center -11px;
+  }
+
+  .home-banner-section .calculator-tab-wrap .nav-tabs .nav-link:nth-child(3).active {
+    background-position: 16px -11px;
+  }
+
+  .home-banner-section .banner-last-steps-wrapper .calculated-info-wrapper .calculated-right-info h4 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .home-banner-section .banner-last-steps-wrapper .calculated-info-wrapper .calculated-right-info .reduced-rate {
+    font-size: 58px;
+    line-height: 28px;
+    margin: 25px 0;
+  }
+
+  .home-banner-section .banner-last-steps-wrapper .calculated-info-wrapper .calculated-right-info p {
+    font-size: 13px;
+    line-height: 18px;
+  }
+
+  .benefits-section .benefit-blockwrap .icon-wrap {
+    height: 60px;
+    width: 60px;
+    top: -27px;
+    left: calc(50% - 30px);
+  }
+
+  .home-banner-section .how-it-work-wrap .step-block .detail-wrap {
+    width: calc(100% - 45px);
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .home-banner-section .how-it-work-wrap h4 {
+    font-size: 22px;
+  }
+
+  .home-banner-section .how-it-work-wrap .step-block {
+    margin: 25px 0;
+  }
+
+  .benefits-section .benefit-blockwrap {
+    padding: 35px 10px 10px;
+  }
+
+  .benefits-section .benefit-blockwrap h4 {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+
+  .debt-counselling-section .debt-counselling-content {
+    width: 85%;
+    left: calc(50% - 42%);
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  .debt-counselling-section .debt-counselling-blockwrap {
+    font-size: 13px;
+    line-height: 16px;
+    padding: 5px;
+  }
+
+  .debt-counselling-section .debt-counselling-blockwrap .icon-wrap {
+    margin: 0 auto 10px;
+    max-width: 45px;
+    vertical-align: middle;
+  }
+
+  .debt-counselling-section .debt-counselling-blockwrap h4 {
+    font-size: 16px;
+  }
+
+  .big-text-banner {
+    top: 115px;
+  }
+
+  .big-text-banner h2 {
+    font-size: 24px;
+    margin-left: auto;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .big-text-banner p {
+    font-size: 22px;
+    line-height: 28px;
+    margin-right: auto;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .timeline>li>.timeline-badge {
+    height: 50px;
+    left: 47%;
+    line-height: 38px;
+    margin-left: -7px;
+    top: 25px;
+    width: 50px;
+    z-index: 100;
+    padding: 3px;
+  }
+
+  .timeline>li>.timeline-badge img {
+    max-width: 25px;
+  }
+
+  .timeline>li>.timeline-panel {
+    padding: 10px;
+  }
+
+  .timeline-body>p,
+  .timeline-body>ul {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .timeline>li.timeline-inverted {
+    padding-left: 25px;
+  }
+
+  .timeline>li:not(.timeline-inverted) {
+    padding-right: 40px;
+  }
+
+  .timeline>li:not(.timeline-inverted) .timeline-panel {
+    margin-top: 15px;
+  }
+
+  .timeline>li:nth-child(1)>.timeline-panel {
+    margin-top: 30px;
+  }
+
+  .debt-counselling-work-section {
+    min-height: 630px;
+    padding: 40px 0 70px;
+  }
+
+  .testimonial-section .testimonial-slider .testimonial-content {
+    padding: 40px 55px;
+    max-width: 100%;
+  }
+
+  .footer-links-section {
+    font-size: 12px;
+  }
+
+  .get-in-touch-wrap .call-info-wrap {
+    font-size: 16px;
+    max-width: 60%;
+  }
+
+  .testimonial-section .testimonial-slider .testimonial-content .content-wrap::before {
+    top: -25px;
+    left: -100px;
+  }
+
+  .testimonial-section .testimonial-slider .testimonial-content .content-wrap::after {
+    bottom: -25px;
+    right: -105px;
+  }
+
+  .contact-section {
+    padding: 45px 0 0;
+    min-height: 345px;
+  }
+
+
+  .contact-section .contact-form .form-control {
+    min-height: 30px;
+  }
+
+  .contact-section .contact-form .black-btn {
+    padding: 6px 25px;
+    font-size: 14px;
+  }
+
+  .get-in-touch-wrap {
+    background-size: cover;
+    min-height: 350px;
+    padding: 40px 0;
+    margin-top: -70px;
+  }
+
+  .footer-links .ncr-logo {
+    margin: 0px 0;
+  }
+
+  .footer-links {
+    padding: 50px 0 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .home-banner-section {
+     background-position: top left;
+     background-repeat: no-repeat;
+     background-size: cover;
+  }
+  .home-banner-section .banner-calculator-wrapper {
+    margin: 10px 0 50px;
+    padding: 0 0 5px;
+  }
+
+  .home-banner-section .banner-last-steps-wrapper {
+    margin: 25px 0;
+    background-position: bottom;
+    padding: 5px;
+  }
+  .breaking-debt-form-wrap{
+    border-radius: 0px;
+    margin:-5px;
+    box-shadow: -2px 2px 25px 8px rgba(0,0,0,.15);
+  }
+
+  .home-banner-section .calculator-tab-wrap .tab-top-block {
+    padding: 5px 10px;
+  }
+
+
+  .home-banner-section .banner-last-steps-wrapper .calculated-info-wrapper .calculated-right-info {
+    width: 100%;
+    margin-top: 10px;
+    text-align: left;
+    padding-left: 0;
+    padding: 0 5px 5px;
+  }
+
+  .home-banner-section .banner-last-steps-wrapper .calculated-info-wrapper .calculated-right-info p {
+    text-align: left;
+  }
+
+  .home-banner-section .banner-last-steps-wrapper .calculated-info-wrapper .calculated-info-wrap::after {
+    border-top: 12px solid #F88939;
+    border-right: 12px solid transparent;
+    border-left: 12px solid transparent;
+    bottom: 0;
+    right: 50%;
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(180deg);
+  }
+
+  .home-banner-section .banner-last-steps-wrapper .calculated-info-wrapper .calculated-info-wrap {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .home-banner-section .banner-last-steps-wrapper .calculated-info-wrapper .calculated-info-wrap .slider-wrap {
+    width: calc(100% - 170px);
+  }
+
+  .home-banner-section .banner-last-steps-wrapper .calculated-info-wrapper .calculated-right-info .price-info {
+    font-size: 22px;
+    line-height: 5px;
+  }
+
+  .home-banner-section .bottom-grey-block .next-btn {
+    background-size: contain;
+    text-transform: none;
+    font-size: 20px;
+    padding: 6px;
+  }
+
+  .home-banner-section .bottom-grey-block .prev-btn {
+    width: 100%;
+    font-size: 20px;
+    padding: 6px;
+    text-transform: none;
+  }
+
+  .home-banner-section .bottom-grey-block .cal-btn {
+    background-image: url("../images/banner-btn-bg.png");
+    text-transform: none;
+    font-size: 20px;
+  }
+
+  .home-banner-section .calculator-tab-wrap {
+    width: 100%;
+    padding: 0 5px;
+  }
+
+  .home-banner-section .bottom-grey-block div.d-block {
+    width: 100%;
+  }
+
+  .home-banner-section .calculator-tab-wrap .tab-content {
+    margin: 0;
+    margin-top: -10px;
+  }
+
+  .home-banner-section .calculator-tab-wrap .nav-tabs {
+    border: none;
+    float: none;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .home-banner-section .calculator-tab-wrap .nav-tabs .nav-link.active {
+    height: 90px;
+    width: 90px;
+    background-position: -23px -10px;
+    z-index: 999 !important;
+  }
+
+  .home-banner-section .calculator-tab-wrap .nav-tabs .nav-link span {
+    height: 45px;
+    width: 45px;
+    border: 3px solid #fff;
+    padding: 7px;
+    font-size: 24px;
+  }
+
+  .home-banner-section .calculator-tab-wrap .nav-tabs .nav-link:nth-child(2) {
+    margin: 0 auto;
+    text-align: center;
+    width: calc(100% - 185px);
+  }
+
+  .home-banner-section .calculator-tab-wrap .nav-tabs .nav-link:nth-child(3) {
+    text-align: right;
+    float: right;
+  }
+
+  .home-banner-section .bottom-grey-block .calculate-value-wrap {
+    width: 100% !important;
+  }
+
+  .breaking-debt-form-wrap .break-debt-form {
+    padding: 10px;
+  }
+
+  .breaking-debt-form-wrap .break-debt-form .custom-from-group {
+    margin-bottom: 20px;
+  }
+
+  .home-banner-section .calculator-tab-wrap .nav-tabs .nav-link {
+    height: 90px;
+    width: 90px;
+    padding: 12px 0 0 0;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .home-banner-section .calculator-tab-wrap .nav-tabs .nav-link:nth-child(1) span::after {
+    min-width: 20px;
+    min-height: 19px;
+    right: -19px;
+    top: 8px;
+  }
+
+  .home-banner-section .calculator-tab-wrap .nav-tabs .nav-link:nth-child(2)::before {
+    width: 50%;
+    left: -35px;
+    top: 32px;
+    height: 5px;
+    z-index: 0;
+  }
+
+  .home-banner-section .calculator-tab-wrap .nav-tabs .nav-link:nth-child(2)::after {
+    width: 50%;
+    right: -35px;
+    top: 32px;
+    height: 5px;
+  }
+
+  .home-banner-section .calculator-tab-wrap .nav-tabs .nav-link:nth-child(2) span::before {
+    min-width: 20px;
+    min-height: 20px;
+    left: -20px;
+    top: 9px;
+  }
+
+  .home-banner-section .calculator-tab-wrap .nav-tabs .nav-link:nth-child(2) span::after {
+    min-width: 20px;
+    min-height: 20px;
+    right: -20px;
+    top: 9px;
+  }
+
+  .home-banner-section .calculator-tab-wrap .nav-tabs .nav-link:nth-child(3) span::before {
+    min-width: 20px;
+    min-height: 20px;
+    left: -20px;
+    top: 9px;
+  }
+
+  .home-banner-section .calculator-tab-wrap .nav-tabs .nav-link:nth-child(2).active {
+    background-position: center -11px;
+    width: calc(100% - 185px);
+  }
+
+  .home-banner-section .calculator-tab-wrap .nav-tabs .nav-link:nth-child(3).active {
+    background-position: 22px -11px;
+  }
+
+  .home-banner-section .bottom-grey-block .last-back-btn {
+    max-width: 45px;
+  }
+
+  .home-banner-section .bottom-grey-block .cal-btn-wrap {
+    width: calc(100% - 50px) !important;
+  }
+
+  .home-banner-section .bottom-grey-block .last-back-btn .prev-btn {
+    padding: 12px;
+  }
+
+  .home-banner-section .calculator-tab-wrap .tab-title {
+    font-size: 22px;
+  }
+
+  .home-banner-section .custom-from-label {
+    font-size: 15px;
+  }
+
+  .home-banner-section .calculated-value {
+    font-size: 25px;
+  }
+
+  .home-banner-section .bottom-grey-block {
+    padding: 20px 0 0;
+  }
+
+  .home-banner-section .bottom-grey-block .div-title {
+    font-size: 14px;
+  }
+
+  .home-banner-section .bottom-grey-block .calculate-value {
+    font-size: 24px;
+  }
+
+  .home-banner-section .banner-last-steps-wrapper .calculated-info-wrapper .calculated-right-info h4 {
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  .home-banner-section .banner-last-steps-wrapper .calculated-info-wrapper .calculated-right-info .reduced-rate {
+    font-size: 68px;
+    margin: 25px 0;
+  }
+
+  .home-banner-section .banner-last-steps-wrapper .calculated-info-wrapper .calculated-right-info p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .debt-counselling-section .debt-counselling-content {
+    width: 90%;
+    left: calc(50% - 45%);
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .debt-counselling-row {
+    padding: 0;
+  }
+
+  .debt-counselling-section {
+    padding: 85px 0 35px;
+  }
+
+  .debt-counselling-section .debt-counselling-blockwrap {
+    font-size: 13px;
+    line-height: 16px;
+    padding: 5px;
+    float: left;
+    position: relative;
+    width: 100%;
+    margin-bottom: 15px;
+    display: block !important;
+  }
+
+  .debt-counselling-work-section {
+    min-height: 520px;
+  }
+
+  .debt-counselling-work-section .section-title {
+    margin-bottom: 15px;
+  }
+
+  .timeline>li:before,
+  .timeline>li:last-child:after {
+    display: none;
+  }
+
+  .timeline>li>.timeline-badge {
+    height: 50px;
+    left: -15px;
+    line-height: 38px;
+    margin-left: -7px;
+    top: 20px;
+    width: 50px;
+    z-index: 100;
+    padding: 3px;
+  }
+
+  .timeline>li>.timeline-panel {
+    padding: 10px 20px 10px 35px;
+    width: 100%;
+  }
+
+  .timeline>li {
+    padding-left: 0;
+  }
+
+  .timeline>li:nth-child(1) {
+    margin-bottom: 55px;
+  }
+
+  .timeline>li:not(.timeline-inverted) {
+    padding-right: 0px;
+    text-align: left;
+  }
+
+  .timeline>li.timeline-inverted {
+    padding-left: 0;
+  }
+
+  .benefits-section .section-title,
+  .debt-counselling-section .section-title,
+  .debt-counselling-work-section .section-title,
+  .faq-section .section-title {
+    font-size: 22px;
+  }
+
+  .testimonial-section .testimonial-slider .testimonial-content .content-wrap::before,
+  .testimonial-section .testimonial-slider .testimonial-content .content-wrap::after {
+    width: 40px;
+    height: 26px;
+    background-size: 100%;
+  }
+
+  .faq-accordion .card .card-header button.collapsed .q-wrap {
+    background-color: transparent;
+  }
+
+  .faq-accordion .card .card-header h5 button .q-wrap {
+    font-size: 18px;
+    padding-left: 0px;
+    padding-right: 0px;
+    min-width: 40px;
+    position: absolute;
+    left: -40px;
+    top: calc(50% - 18px);
+    display: none;
+  }
+
+  .faq-accordion .card .card-header h5 button .question {
+    padding: 5px 6px;
+    font-size: 13px;
+    max-width: max-content;
+    width: calc(100% - 70px);
+    word-wrap: break-word;
+    white-space: initial;
+    position: relative;
+    display: inline-block;
+    text-align: left;
+  }
+
+  .faq-section .section-title .section-subtext {
+    font-size: 16px;
+  }
+
+  .faq-accordion .card-body {
+    padding: 15px 10px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .faq-accordion .card .card-header button .img-wrap {
+    padding: 0 10px;
+  }
+
+  .faq-accordion .card .card-header button .img-wrap img {
+    max-width: 12px;
+  }
+
+  .get-in-touch-wrap {
+    background-size: cover;
+    min-height: 100%;
+    padding: 40px 0;
+    margin-top: -70px;
+    margin-bottom: 30px;
+  }
+
+  .get-in-touch-wrap .block-title {
+    font-size: 30px;
+  }
+
+  .get-in-touch-wrap .call-info-wrap {
+    font-size: 16px;
+    padding: 5px 15px;
+    margin-top: 15px;
+    max-width: 35%;
+
+  }
+
+  .contact-section {
+    padding: 45px 0;
+    min-height: 100%;
+  }
+
+  .contact-section .contact-form {
+    padding: 0 0 25px;
+  }
+
+  .footer-links {
+    padding: 40px 0 20px;
+  }
+
+  .footer-links .col-md-4::after {
+    display: none;
+  }
+
+  .footer-links .ncr-logo {
+    margin: 20px 0;
+  }
+
+  .footer-links .video-wrap {
+    max-height: 100%;
+    position: relative;
+    float: left;
+    position: relative;
+    width: 100%;
+  }
+
+  .footer-links .contact-block {
+    float: left;
+    position: relative;
+    width: 100%;
+  }
+
+  .footer-links .footer-video-block .footer-title,
+  .footer-links .contact-block .footer-title {
+    margin-top: 25px;
+  }
+
+  .faq-accordion .card .card-header h5 button::after {
+    border-top: 10px solid #ff6800;
+    border-right: 10px solid transparent;
+    border-bottom: 0;
+    border-left: 10px solid transparent;
+    position: absolute;
+    content: '';
+    bottom: -11px;
+    left: calc(50% - 10px);
+  }
+
+  .footer-links .video-wrap img {
+    width: 100%;
+  }
+
+  .innerpage-banner-section {
+    min-height: 170px;
+  }
+
+  .privacy-policy-section {
+    padding: 35px 0 60px;
+  }
+
+  .innerpage-banner-section .banner-title {
+    font-size: 28px;
+    margin: 50px 0;
+  }
+
+  .privacy-policy-section h1 {
+    margin-bottom: 20px;
+    font-size: 22px;
+  }
+
+  .privacy-policy-section .newLetterHeader {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+
+  .banner-try-txt {
+    font-size: 20px;
+  }
+
+  .debt-counselling-section {
+    padding: 100px 0 35px;
+  }
+
+  .benefits-section .section-title,
+  .debt-counselling-section .section-title,
+  .debt-counselling-work-section .section-title,
+  .faq-section .section-title {
+    font-size: 20px;
+  }
+
+  .home-banner-section .home-banner-form .custom-form-group .form-group {
+    width: 100%;
+    max-width: 120px;
+  }
+
+  .home-banner-section .custom-from-label {
+    font-size: 13px;
+  }
+
+  .home-banner-section .banner-last-steps-wrapper .calculated-info-wrapper .calculated-info-wrap .slider-wrap {
+    width: 100%;
+    margin-top: 0;
+  }
+
+
+  .timeline>li {
+    margin-bottom: 40px;
+  }
+
+  .timeline>li>.timeline-badge {
+    height: 40px;
+    left: 0px;
+    line-height: 28px;
+    margin-left: -7px;
+    top: 20px;
+    width: 40px;
+    z-index: 100;
+    padding: 3px;
+  }
+
+  .timeline>li>.timeline-badge img {
+    max-width: 22px;
+  }
+
+  .timeline>li:not(.timeline-inverted) .timeline-panel {
+    margin-top: 15px;
+  }
+
+  .testimonial-section .testimonial-slider .testimonial-content .content-wrap::before,
+  .testimonial-section .testimonial-slider .testimonial-content .content-wrap::after {
+    display: none;
+  }
+
+  .testimonial-section .testimonial-slider .testimonial-content {
+    padding: 15px 15px 45px;
+  }
+
+  .testimonial-section .testimonial-slider .testimonial-content::before {
+    bottom: 10px;
+    left: 10px;
+    min-width: 115px;
+    min-height: 102px;
+  }
+
+  .testimonial-section .testimonial-slider .testimonial-content::after {
+    top: 10px;
+    right: 10px;
+  }
+
+  .testimonial-section .testimonial-slider .testimonial-content .content-wrap {
+    font-size: 14px;
+    line-height: 22px;
+    max-width: 95%;
+  }
+
+  .get-in-touch-wrap .call-info-wrap {
+    max-width: 65%;
+  }
+
+  .testimonial-section .testimonial-slider .testimonial-thumb h3 {
+    font-size: 18px;
+  }
+
+
+}
+
+/* base */
+.form_field{
+  padding:55px 15px 15px; 
+}
+
+.form_field .row [class*="col-"] {
+    padding:5px;
+}
+
+.form_field h3{
+  font-weight:900;
+  font-size:24px;
+}
+.form_field p{
+  font-weight:300;
+  font-size:14px;
+  color:#666666;
+  margin-bottom: 0px;
+}
+
+.form_field h4{
+  font-weight:400;
+  font-size:16px;
+  color:#000;
+  margin-top:0;
+}
+.form_field h4 strong{
+  font-weight:900;
+  color:#ff6801;
+  text-transform:uppercase;
+  font-family: 'ralewaybold';
+}
+.form_field span{
+  font-weight:300;
+  font-size:14px;
+  color:#666666;
+  display:block;
+}
+
+.form_field input.form-control{
+  background:#f1f1f1;
+  border:1px solid rgba(0,0,0,0.10);
+  padding: 10px 12px;
+  height:40px;
+  font-size: 1rem !important;
+
+}
+.form_field textarea.form-control{
+  background:#f1f1f1;
+  border:1px solid rgba(0,0,0,0.10);
+  padding: 10px 12px;
+  height:90px;
+  resize: none;
+  font-size: 1rem !important;
+}
+
+
+.home_form{
+  position:relative;  
+  /*margin-bottom:25px;*/
+  display:block;
+}
+
+/*.home_form form{
+  position: absolute;
+    width: 100%;
+    top: -90px;
+    background: #fff;
+    padding: 0 15px;
+}*/
+
+.home_form .inasaf{
+    width: 100%;
+  position:relative;
+    /*margin-top: -40px;*/
+    background: #fff;
+    padding: 0 15px;
+    border-radius: 30px;
+}
+.form_field .terms{
+  margin:5px 0;
+  display:block;
+    float: left;
+  position: relative;
+  width: 100%;
+}
+.home_form .identification{
+  display: block;
+  float: left;
+  position: relative;
+  width: 100%;
+}
+.home_form .error{
+  position: relative;
+}
+.home_form label.error{
+  color: #ff6800;
+}
+.home_form .terms .error{
+  position: absolute;
+}
+.home_form .identification label,
+.home_form .terms label {
+  font-weight: 600;
+}
+.submit_btn{
+  text-align:center;
+  margin-bottom:30px;
+}
+.home_form .submit_btn.break_debt input,
+.home_form .submit_btn.break_debt .btn-submit{
+    color: #fff;
+    background-color: rgba(241,90,37,1);
+    border-color: rgba(241,90,37,1);
+    background: linear-gradient(90deg, rgba(255,171,39,1) 0%, rgba(241,90,37,1) 70%);
+    padding: 8px 25px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 18px;
+    cursor: pointer;
+    border:0px!important;
+    box-shadow: none;
+    margin-top: 20px;
+}
+.home_form .submit_btn.break_debt input:hover,
+.home_form .submit_btn.break_debt input:focus,
+.home_form .submit_btn.break_debt input:active,
+.home_form .submit_btn.break_debt .btn-submit:hover,
+.home_form .submit_btn.break_debt .btn-submit:focus,
+.home_form .submit_btn.break_debt .btn-submit:active {
+    color: #fff !important;
+    border-color: rgba(241,90,37,1) !important;
+    background: linear-gradient(90deg, rgba(241,90,37,1) 0%, rgba(255,171,39,1) 70%) !important;
+}
+.form_field .row [class*="col-"] {
+    padding: 5px;
+}
+.refereceno {
+    display: inline-block !important;
+    font-weight: bold !important;
+    font-size: 18px !important;
+    color: #f15a25 !important;
+    font-family: 'OpenSansSemibold' !important;
+}
+.form_field .terms a{
+  color:inherit;
+}
+.top_contact{
+  margin-top:25px;
+  margin-bottom:25px;
+  position:relative;
+}
+.top_contact .phone_email:before{
+}
+.top_contact .phone_email{
+  font-size:13px;
+  font-weight:normal;
+  letter-spacing:1.5px;
+  color:#666666;
+  line-height:18px;
+  margin-left: 25px;
+}
+.top_contact .phone_email a{
+  color:#666;
+}
+.top_contact .phone_email span a{
+  color:#ff6801;
+  /*font-family: 'ralewaybold';*/
+  font-family: 'OpenSansSemibold';
+}
+.top_contact .phone_email span a:hover{
+  color:#231f20;
+}
+.top_contact .phone_email span{
+  font-size:22px;
+  color:#ff6801;
+  display:block;
+  font-weight:900;
+  letter-spacing:0;
+}
+
+.left {
+    float: left !important;
+}
+.top_contact i{
+  font-size:38px;
+  color:#bbbbbb;
+  position:absolute;
+  left:0;
+  top:-1px;
+}
+@media (min-width: 768px){
+  .form_field h4 {
+      margin-top: 30px;
+  }
+  .form_field {
+      padding: 55px 30px 30px;
+  }
+  .form_field .terms {
+      margin: 20px 0;
+      display: block;
+  }
+}
+@media(max-width:991px){
+  .form_field {
+      padding: 15px;
+  }
+  .form_field h4 {
+      margin-top: 10px;
+  }
+}
+@media(max-width:767px){
+  .form_field {
+      padding: 0px 15px 15px;
+  }
+  .form_field h4 {
+      margin-top: 10px;
+  }
+  .form_field .terms a {
+      position: absolute;
+      top: -4px;
+      left: 21px;
+  }
+  .home_form .terms .error {
+      position: relative;
+      display: block;
+      margin: 0 !important;
+  }
+}
